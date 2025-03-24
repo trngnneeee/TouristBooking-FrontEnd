@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer/Footer";
 import { Section1 } from "./pages/MainPage/Section1/Section1";
 import { Section2 } from "./pages/MainPage/Section2/Section2";
 import { Section3 } from "./pages/MainPage/Section3/Section3";
@@ -20,6 +21,8 @@ export default function Home() {
       <Section5/>
       {/* Section 6 */}
       <Section6/>
+      {/* Footer */}
+      <Footer/>
     </>
   );
 }
