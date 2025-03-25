@@ -1,5 +1,6 @@
 import { HeadMenu } from "./components/HeadMenu/HeadMenu";
 import { Header } from "./components/Header/Header.js";
+import { Footer } from "./components/Footer/Footer";
 import { SiderContactMenu } from "./components/SiderContactMenu/SiderContactMenu";
 import "./globals.css";
 
@@ -12,10 +13,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="relative">
-        <HeadMenu/>
-        <Header/>
+        <HeadMenu />
+        <Header />
         {children}
-        <SiderContactMenu/>
+        <SiderContactMenu />
+        <Footer />
       </body>
     </html>
   );

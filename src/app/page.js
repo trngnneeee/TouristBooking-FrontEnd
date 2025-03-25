@@ -1,10 +1,9 @@
-import { Footer } from "./components/Footer/Footer";
-import { Section1 } from "./pages/MainPage/Section1/Section1";
-import { Section2 } from "./pages/MainPage/Section2/Section2";
-import { Section3 } from "./pages/MainPage/Section3/Section3";
-import { Section4 } from "./pages/MainPage/Section4/Section4";
-import { Section5 } from "./pages/MainPage/Section5/Section5";
-import { Section6 } from "./pages/MainPage/Section6/Section6";
+import { Section1 } from "./components/MainPage/Section1/Section1";
+import { Section2 } from "./components/MainPage/Section2/Section2";
+import { Section3 } from "./components/MainPage/Section3/Section3";
+import { Section4 } from "./components/MainPage/Section4/Section4";
+import { Section5 } from "./components/MainPage/Section5/Section5";
+import { Section6 } from "./components/MainPage/Section6/Section6";
 
 export default function Home() {
   return (
@@ -21,8 +20,6 @@ export default function Home() {
       <Section5/>
       {/* Section 6 */}
       <Section6/>
-      {/* Footer */}
-      <Footer/>
     </>
   );
 }

@@ -34,7 +34,7 @@ export const CardItem = ({ item }) => {
                         </div>
                         <div className="flex items-center gap-[7px]">
                             <div className="text-[11px] font-[700] text-[#25282B]">Số chỗ còn:</div>
-                            <div className="p-[8px] bg-[#DA0808] rounded-[6px] text-white font-[700] text-[14px]">10</div>
+                            <div className="w-[34px] p-[8px] bg-[#DA0808] rounded-[6px] text-white font-[700] text-[14px]">10</div>
                         </div>
                     </div>
                 </div>
