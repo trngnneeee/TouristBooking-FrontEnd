@@ -9,7 +9,7 @@ export const Header = () => {
                 <div className="mx-[90px]">
                     <div className="flex items-center justify-between my-[12px] bg-[#FFFFFF]">
                         <div>
-                            <img src="Logo.svg" />
+                            <img src="/Logo.svg" />
                         </div>
                         <div>
                             <ul className="flex gap-[40px] text-[#25282B]">

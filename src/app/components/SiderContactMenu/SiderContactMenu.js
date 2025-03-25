@@ -7,7 +7,7 @@ import { AiOutlineYoutube } from "react-icons/ai";
 export const SiderContactMenu = () => {
     return (
         <>
-            <div className="bg-[#4502C7] w-[39px] rounded-[10px] fixed right-[20px] bottom-0">
+            <div className="bg-[#4502C7] w-[39px] rounded-[10px] fixed right-[20px] bottom-[10px]">
                 <ul className="flex flex-col gap-[20px] text-white justify-center items-center p-[10px]">
                     <li className="text-[25px]">
                         <Link href="#">
