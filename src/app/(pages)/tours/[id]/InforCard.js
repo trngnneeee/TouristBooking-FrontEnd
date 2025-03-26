@@ -97,7 +97,9 @@ export const InforCard = () => {
                 </div>
 
                 <div>
-                    <Button/>
+                    <Button
+                        title="Thêm vào giỏ hàng"
+                    />
                 </div>
             </div>
         </>
